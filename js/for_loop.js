@@ -39,3 +39,31 @@ for (let i = 0; i < studentRow.length; i++) {
     console.log(`   ${row[j]}`);
   }
 }
+
+/*
+TUGAS PERULANGAN DI JAVASCRIPT
+
+1. BUAT CONTOH PERULANGAN DARI SUATU VARIABEL BERTIPE ARRAY
+CONTOH :
+const x = [3, 5, 12];
+- loop Data
+- total nilai adalah 20 karena 3 + 5 + 12 = 20
+
+LOOPING data tersebut menggunakan for, while & do while.
+dan munculkan juga jumlah hasil penambahan semua angka yang ada di dalam array tersebut sperti pada contoh
+*/
+
+const x = [3, 5, 12];
+
+function loopingDataArray(a, b, c) {
+  console.log("Looping Data Array ...");
+  for (let i = 0; i < x.length; i++) {
+    console.log(x[i]);
+  }
+  const penjumlahan = a + b + c;
+  console.log(
+    `total nilai adalah ${penjumlahan} karena 3 + 5 + 12 ${penjumlahan}`
+  );
+}
+
+console.log(loopingDataArray(3, 5, 12));

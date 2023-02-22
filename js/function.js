@@ -79,3 +79,16 @@ const Aritmatika = {
 console.log(
   `Hasil dari method perkalian adalah ${Aritmatika.perkalian(10, 10)}`
 );
+
+// keyword This
+// keyword untuk memanggil suatu property pada object yang sama. Tujuannya untuk menentukan nilainya
+
+const pepople = {
+  nama: "Refsi Maulana Siregar",
+  hobi: "Futsal",
+  kenalan: function () {
+    return `Halo perkenalkan nama saya "${this.nama}", dan hobi saya yaitu "${this.hobi}" salam kenal ya..`;
+  },
+};
+
+console.log(pepople.kenalan());
