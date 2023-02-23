@@ -60,6 +60,13 @@ function duaKali(func) {
   func();
 }
 
+// Arrow function
+// Membuat syntax fungsi menjadi lebih ringkas
+const penjumlahan = (x) => {
+  return x + x;
+};
+console.log(penjumlahan(2));
+
 function lemparDadu() {
   const nilai = Math.floor(Math.random() * 6) + 1;
   console.log(`Hasil Dari lempar dadu menggunakan 2 function adalah ${nilai}`);
