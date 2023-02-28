@@ -24,6 +24,10 @@ body.append(h2);
 // membuat variabel untuk class yang ada di button HTML
 const btnOKe = document.getElementById("btn_oke");
 const btnCancel = document.querySelector(".btn_cancel");
+// kalau mencari element ID menggunakan #
+// kalau mencari element Class menggunakan .
+
+
 
 const oriText = "Oke";
 btnOKe.innerText = oriText;
